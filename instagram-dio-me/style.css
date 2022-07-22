@@ -1,0 +1,179 @@
+body {
+    background-color: #fafafa;
+}
+
+.container_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+.container_img {
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-right: 50px;
+}
+
+
+
+
+.container_login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login {
+    display: flex;
+    padding: 10px;
+    width: 350px;
+    height: 386px;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 1px;
+    border: #dbdbdb 1px solid;
+    background-color: #fff;
+}
+
+.instagram_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+
+}
+
+.instagram_logo img {
+    width: 175px;
+    height: 51px;
+    margin-top: 20px;
+}
+
+.container_login input {
+    display: flex;
+    width: 280px;
+    height: 36px;
+    font-size: 10px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    border: #dbdbdb 1px solid;
+    outline: 0;
+
+}
+
+
+
+.container_login button {
+    width: 286px;
+    height: 30px;
+    border: #C0DFFD solid 1px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #C0DFFD;
+    cursor: pointer;
+
+}
+
+.container_login button:hover {
+    background-color: #0095F6;
+    transition: 30ms;
+}
+
+.ou {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+
+
+}
+
+.ou img {
+    width: 350px;
+}
+
+.footer_login {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    flex-direction: column;
+}
+
+.footer_login p {
+    cursor: pointer;
+    margin-top: 10px;
+    color: #01376A;
+    font-weight: 600;
+}
+
+
+.footer_login span {
+    margin-top: 20px;
+    color: #01376A;
+    cursor: pointer;
+}
+
+.container_register {
+    display: flex;
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: #dbdbdb 1px solid;
+    border-radius: 1px;
+    background-color: #fff;
+
+}
+
+.container_register p {}
+
+
+.blue {
+    margin-left: 5px;
+    color: #289DF7;
+    cursor: pointer;
+}
+
+.container_download_app {
+    width: 350px;
+    height: 60px;
+}
+
+.container_download_app p {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.imagem img {
+    width: 136px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+@media (max-width: 986px) {
+    .container_login {
+        width: 90%;
+    }
+
+    .container_img {
+        display: none;
+    }
+
+}
